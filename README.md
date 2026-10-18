@@ -4,7 +4,17 @@
 
 <img src="assets/icon.png" alt="Phraseglow two-card icon in sunshine and ink" width="120">
 
-**Status: production in progress, October18,2026.** Apple has accepted the app record/name; the app has not been submitted or released. Marketing campaigns and final QA are in progress.
+**Status: build1.0(1) passed Apple validation and uploaded to App Store Connect on October18,2026. Submission is being finalized; not released.**
+
+## The campaign
+
+Five art-directed frames for each device family, built around authentic final native UI. Collections and saved styles are clearly labeled as Lifetime Pro features.
+
+<img src="assets/iPhone/01-Phraseglow.png" alt="Say it big — Phraseglow iPhone campaign" width="260"> <img src="assets/iPhone/04-Phraseglow.png" alt="Keep useful phrases close — Lifetime Pro collections" width="260">
+
+<img src="assets/iPad/02-Phraseglow.png" alt="Purposeful iPad editor and phrase library" width="760">
+
+[Full iPhone campaign](assets/iPhone-campaign.png) · [Dedicated iPad campaign](assets/iPad-campaign.png)
 
 ## The product
 Free unlimited text display and system speech, all high-contrast palettes, and three saved phrases. A one-time Lifetime Pro purchase adds more saved phrases, named collections and saved presentation styles. Existing content stays readable and usable after entitlement changes. No account, backend or subscription. No translation or medical/treatment claims.
@@ -16,6 +26,10 @@ Free unlimited text display and system speech, all high-contrast palettes, and t
 - StoreKit2 uses localized pricing and verified transactions, with restore, cancellation, pending, error, refund and offline/relaunch handling.
 - AVSpeechSynthesizer uses installed voices, stops on interruption/background/headphone removal, and guards against stale callbacks from replaced utterances.
 - A purposeful iPad workspace puts editing and phrase recall side by side, with stacked layouts for narrow windows.
+
+## Validation boundaries
+
+Automated core/data-integrity/local StoreKit tests and iPhone/iPad workflows passed. Physical iPhone tests verified native speech completion, speaker routing, stale-callback rejection and injected interruption/route-change handlers; no subjective listening claim is made. A genuine physical App Store catalog lookup returned the correct non-consumable SKU and localized price. The publisher explicitly waived remaining remote Sandbox purchase/entitlement/restore/offline verification after a failed initial purchase attempt. Those remote checks are skipped, not passed. TestFlight is separately skipped by publisher instruction. iOS15 deployment compiles; an iOS15 runtime was unavailable, and the oldest available runtime check used iOS17.
 
 ## Technology and privacy
 Swift · SwiftUI · UIKit/TextKit · AVFoundation · StoreKit2 · XCTest/XCUITest · Universal iOS/iPadOS15+. No third-party runtime dependencies. The developer collects no messages, phrases or usage analytics. Local content remains on the device; Apple handles system speech and purchases. Offline speech availability depends on installed voice resources.
