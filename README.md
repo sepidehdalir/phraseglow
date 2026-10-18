@@ -4,7 +4,7 @@
 
 <img src="assets/icon.png" alt="Phraseglow two-card icon in sunshine and ink" width="120">
 
-**Status: build1.0(1) passed Apple validation and uploaded to App Store Connect on October18,2026. Submission is being finalized; not released.**
+**Status: app1.0(1) and Lifetime Pro submitted together on October18,2026; both Waiting for Review. V1 frozen; not released.**
 
 ## The campaign
 
