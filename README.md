@@ -4,7 +4,7 @@
 
 <img src="assets/icon.png" alt="Phraseglow two-card icon in sunshine and ink" width="120">
 
-**Current status — October 19, 2026: Phraseglow app version is Rejected.** App Review recovery is in progress. No approval, public release or corrective resubmission is claimed. Prior submission and QA evidence remain historical; app-specific skipped checks remain skipped.
+**Current review — October 19, 2026:** app **1.0(1) Rejected under 4.3(a)**; Lifetime Pro **Ready for Review**. An app-specific clarification was posted and verified at **October19,2026 18:00PDT**, requesting the specific comparator/overlap and any concrete safety, security or quality issue. No corrective binary, resubmission, approval or release is claimed.
 
 ## The campaign
 
