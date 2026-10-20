@@ -4,7 +4,7 @@
 
 <img src="assets/icon.png" alt="Phraseglow two-card icon in sunshine and ink" width="120">
 
-**Status: app1.0(1) and Lifetime Pro submitted together on October18,2026; both Waiting for Review. V1 frozen; not released.**
+**Current status — October 19, 2026: Phraseglow app version is Rejected.** App Review recovery is in progress. No approval, public release or corrective resubmission is claimed. Prior submission and QA evidence remain historical; app-specific skipped checks remain skipped.
 
 ## The campaign
 
